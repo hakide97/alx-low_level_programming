@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * print_array - a function that prints n elements of an array
- * @a: array name
+ * print_array - prints n elements of an array of integers
+ * @a: array of integers
  * @n: is the number of elements OF the array to be printed
- * Return: a and n inputs
+ * Return: void
  */
 
 void print_array(int *a, int n)
+
 {
 	int j;
 
